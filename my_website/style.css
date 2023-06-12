@@ -1,0 +1,50 @@
+* {
+  background: lightblue;
+  font-family: georgia;
+}
+
+h1, h2 {
+  color: darkviolet;
+  font-family: "trebuchet ms"
+}
+
+h3 {
+  color: orchid;
+  font-family: tahoma;
+  text-align: center;
+}
+
+header a {
+  padding: 5px;
+}
+
+header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+footer {
+  color: navy;
+}
+
+[src*="self"] {
+  height: 500px;
+  border: solid navy;
+  border-radius: 35%;
+}
+
+[src*="lucky"] {
+  height: 300px;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+a {
+  color: darkblue;
+}
+
+a:hover {
+  color: darkorange;
+}
